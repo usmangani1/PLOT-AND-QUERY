@@ -1,0 +1,65 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 50%;
+    background-color: #1abc9c;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #54a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 50%;
+}
+body{
+    
+    background-color: #1abc9c;
+    
+}
+
+</style>
+<body>
+
+<center>
+    <h3>PLOT AND QUERY</h3>
+<div>
+ <form method="post" action="pathconnection.php">
+    
+    <br>
+    Enter the Starttime:
+    <input type="text" name="fromtime1" id="starttime" placeholder="mm/dd/year">
+    <br>
+   
+    <br>
+    Enter the Endtime:
+              <input type="text" name="endtime1"  id="endtime" placeholder="mm/dd/year">
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</center>
+</body>
+</html>

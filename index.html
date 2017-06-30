@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<center>
+<h1>PLOT AND QUERY</h1>
+</center>
+<style>
+body 
+{
+margin:0;
+padding-top: 10px;
+}
+
+ 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+    top: 65;
+    width: 100%;
+}
+ 
+li {
+    float: left;
+    width:280px;
+}
+ 
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ 
+li a:hover:not(.active) {
+    background-color: #4CAF60;
+}
+ 
+.active {
+    background-color: #4CAF50;
+}
+</style>
+</head>
+<body>
+  <center>
+ 
+<ul>
+  <li><a href="googlemapphpwithoutcalender.php">SHOW FULL MAP</a></li>
+  <li><a href="plotsome.html">PLOT SELECTED</a></li>
+  <li><a href="getlocation.html">SHOW LOCATION</a></li>
+  <li><a href="mostvisitedplace.php">VISITED DATA</a></li>
+  <li><a href="getpath.html">PATH TRAVELLED</a></li>
+</ul>
+ 
+<div style="padding:20px;background-color:#1abc9c;height:650px;">
+
+<h2>UPLOAD A JSON FILE</h2>
+ 
+<center>
+<br>
+<br>
+<form action="uploadhack.php" method="post" enctype="multipart/form-data">
+<input type="file" name="file">
+<br>
+<br>
+<button type="submit" name="btn-upload">Upload
+</form>
+            
+</div>
+<script>
+var time=new Date();
+function myFunction() {
+    alert(time);
+}
+</script>
+</body>
+ 
+</html>
